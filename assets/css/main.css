@@ -2388,6 +2388,11 @@ input, select, textarea {
 				width:100%;
 				border-radius: 20% 20%;
 			}
+			.image.PET1 img {
+				position: relative;
+				margin-left: 15%;
+				width:100%;
+			}
 
 		.image.main {
 			display: block;
