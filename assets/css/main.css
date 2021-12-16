@@ -2636,6 +2636,11 @@ input, select, textarea {
 			flex-direction: row-reverse;
 		}
 
+		ul.posts article .competence{
+			list-style: none;
+
+		}
+
 			ul.posts article .image {
 				display: block;
 				margin-right: 1.5em;
@@ -2668,6 +2673,28 @@ input, select, textarea {
 					letter-spacing: 0.25em;
 					margin: -0.625em 0 1.7em 0;
 					text-transform: uppercase;
+				}
+
+				ul.posts article header .titre {
+					display: block;
+					font-family: "Raleway", Helvetica, sans-serif;
+					font-size: 0.7em;
+					font-weight: 900;
+					
+				}
+
+				ul.posts article header .titre2 {
+					display: block;
+					font-family: "Raleway", Helvetica, sans-serif;
+					font-size: 0.6em;
+					
+				}
+
+				ul.posts article header .content {
+					display: block;
+					font-family: "Raleway", Helvetica, sans-serif;
+					font-size: 0.7em;
+					font-weight: 400;
 				}
 
 				ul.posts article header > :last-child {
