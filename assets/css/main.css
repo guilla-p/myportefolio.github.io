@@ -2343,44 +2343,47 @@ input, select, textarea {
 			height: auto;
 		}
 
-			.image.featured1 img {
-				display:inline-block;
-				margin: 0 0 0;
-				width: 400px;
-				height: auto;
-			}
-			
-			.image.featured2 img {
-				display:inline-block;
-				margin-left: 200px;
-				padding: 5px;
-				width: 300px;
-				height: auto;
-				
-			}
-
-			.image.featured3 img {
-				display:inline-block;
-				margin-left: 450px;
-				padding: 5px;
-				width: 300px;
-				height: auto;
-			}
-
-			.image.featureds img {
-				position: relative;
-				width:100%;
-				border-radius: 20% 20%;
-				height: auto;
-			}
-
 			@media screen and (max-width: 736px) {
 
 				.image.featured {
 					margin: 0 0 1.5em 0;
 				}
 
+				.image.featured2 {
+					margin: 0 0 1.5em 0;
+				}
 			}
+
+				.image.featured1 img {
+					display:inline-block;
+					margin: 0 0 0;
+					width: 400px;
+					height: auto;
+				}
+				
+				.image.featured2 img {
+					display:inline-block;
+					margin-left: 200px;
+					padding: 5px;
+					width: 300px;
+					height: auto;
+					
+				}
+	
+				.image.featured3 img {
+					display:relative;
+					margin-left: 450px;
+					padding: 5px;
+					width: 300px;
+					height: auto;
+				}
+	
+				.image.featureds img {
+					position: relative;
+					width:100%;
+					border-radius: 20% 20%;
+					height: auto;
+				}
 
 			.image.MPB img {
 				position: relative;
