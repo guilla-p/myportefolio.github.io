@@ -2347,6 +2347,7 @@ input, select, textarea {
 				display:inline-block;
 				margin: 0 0 0;
 				width: 400px;
+				height: auto;
 			}
 			
 			.image.featured2 img {
@@ -2354,6 +2355,7 @@ input, select, textarea {
 				margin-left: 200px;
 				padding: 5px;
 				width: 300px;
+				height: auto;
 				
 			}
 
@@ -2362,12 +2364,14 @@ input, select, textarea {
 				margin-left: 450px;
 				padding: 5px;
 				width: 300px;
+				height: auto;
 			}
 
 			.image.featureds img {
 				position: relative;
 				width:100%;
 				border-radius: 20% 20%;
+				height: auto;
 			}
 
 			@media screen and (max-width: 736px) {
