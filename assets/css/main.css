@@ -2297,6 +2297,15 @@ input, select, textarea {
 	list-style-type:circle;
 }
 
+#profils li{
+	list-style-type:decimal;
+}
+
+#BarreRech li {
+
+	list-style-type:circle;
+}
+
 /* Video */
 
 .video-container {
@@ -2415,7 +2424,7 @@ height: 100%;
 				}
 
 				.image.featured1 {
-					margin: 0 0 0 0;
+					margin: 0 0 1.5em 0;
 					}
 
 				.image.featured2 {
