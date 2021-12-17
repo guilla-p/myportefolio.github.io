@@ -3543,7 +3543,7 @@ height: 100%;
 
 		#sidebar > * {
 			border-top: solid 1px rgba(160, 160, 160, 0.3);
-			margin: 3em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 3em 0 0 0;
 		}
 
@@ -3571,7 +3571,7 @@ height: 100%;
 	#intro .logo {
 		border-bottom: 0;
 		display: inline-block;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 		overflow: hidden;
 		position: relative;
 		width: 4em;
