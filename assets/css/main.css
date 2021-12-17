@@ -2287,6 +2287,16 @@ input, select, textarea {
 			float: right;
 		}
 
+/* Puce */
+
+#entite{
+	list-style:upper-roman;
+}
+
+#entite ul{
+	list-style-type:circle;
+}
+
 /* Video */
 
 .video-container {
