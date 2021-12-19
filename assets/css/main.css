@@ -225,6 +225,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.1em;
+		
 	}
 
 	h3 {
@@ -3267,7 +3268,7 @@ height: 100%;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #ffffff;
+		
 		border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 		height: 3.5em;
 		left: 0;
@@ -3276,6 +3277,7 @@ height: 100%;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		background: linear-gradient(lightblue,white);
 	}
 
 		#header a {
@@ -3696,6 +3698,7 @@ height: 100%;
 		#menu > * {
 			border-top: solid 1px rgba(160, 160, 160, 0.3);
 			padding: 3em;
+			background: linear-gradient(lightblue,white);
 		}
 
 			#menu > * > :last-child {
